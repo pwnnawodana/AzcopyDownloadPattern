@@ -18,20 +18,3 @@ AZ copy is the base tool use to perform whole task
   Click new and place azcopy.exe parent directory (if exe at "C:\Azcopy\azcopy.exe" then place "C:\Azcopy\" as value without double quotes) path within then click ok on all windows.
 - Step 3
   Open cmd and run "azcopy --version" in that. if you get version value, good to go. 
-
-## If destination already exist
-Make sure ready to remigrate all the destinations
-⚠️ Possible issues
-- Files may override
-- Unnecessary files may contain after the migration 
-Suggest to remove the destination if files doesn't match and if really required
-
-## Read Texts in the script parent
-Within parent directory can see text files which contains the files list information.
-- Text file
-  - File list information or
-  - error logs
-    - authentication error
-    - files not found errors etc.
-
-If uncommon behavior happen read the text files for further information.
